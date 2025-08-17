@@ -1,6 +1,57 @@
-.container{
-    width: 200px;
-    height: 200px;
-    background-color: aqua;
-    transition: background-color 1s ease-in-out;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 60;
+    height: 60;
+    background-color: greenyellow;
+    border-radius: 20px;
+    box-shadow: 0 0 0 #cccc,
+    0 0 0 #fff,
+    10px 10px 10px #cccc inset,
+    -10px -10px 10px #fff inset;
+    animation-name: resize;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes resize {
+    0% {
+        width: 60px;
+        height: 60px;
+        background-color: #f0f0f0;
+    }
+    25% {
+        width: 60px;
+        height: 60px;
+        background-color: #f0f0f0;
+
+    }
+    50% {
+        width: 60px;
+        height:240px;
+        background-color: #f0f0f0;
+
+    }
+    100% {
+        width: 480px;
+        height: 240px;
+        background-color: #f0f0f0;
+
+    }
+}
+

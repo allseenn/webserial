@@ -1,0 +1,10 @@
+.container{
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+    transition: background-color 0.5s linear;
+}
+
+.container:hover{
+    background-color: black;
+}
