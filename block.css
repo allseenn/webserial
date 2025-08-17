@@ -1,0 +1,33 @@
+.header {
+    border: 5px red solid;
+    width: 201px;
+    height: 202px;
+    margin: 0px auto;
+}
+
+.block1 {
+    background-color: aqua;
+
+}
+
+.block2 {
+    background: blue;
+    position: relative;
+    left: 50px;
+    top: 50px;
+    z-index: 1
+}
+
+.block3 {
+    background-color: bisque;
+}
+
+.block4 {
+    background-color: blueviolet;
+}
+
+.block5 {
+    background-color: brown;
+    position: relative;
+    z-index: 2;
+}
